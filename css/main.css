@@ -14,16 +14,37 @@ body {
 h1 {
 	text-align: center;
 	color: #fff;
+	margin: 0.5;
+	padding: 0;
+	line-height: 1.5rem;
 }
 
 .horizontal-nav {
 	list-style-type: none;
 	text-align: center;
 	text-decoration: none;
-	color: #fff;
+	margin-top: 0;
+	padding: 0;
 }
 
+.horizontal-nav li {
+	display: inline;
+}
 
+.horizontal-nav li a{
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.5em;
+	background-color: #713837;
+	color: #fff;
+	text-decoration: none;
+	font-family: sans-serif;
+	border-radius: 5px;
+}
+
+.horizontal-nav li a:hover {
+	background-color: #ff332a;
+}
 
 *, *::before, *::after {
 	box-sizing: inherit;
