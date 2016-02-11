@@ -1,53 +1,53 @@
 html {
-	box-sizing: border-box;
-	background-color: #dbd6d0;
+  box-sizing: border-box;
+  background-color: #dbd6d0;
 }
 
 body {
-	background-color: #79766f;
-	border: 2.5px solid #5b5751;
-	margin: 0;
-	font-family: "Bevan", cursive;
-	padding: 0;
+  background-color: #79766f;
+  border: 2.5px solid #5b5751;
+  margin: 0;
+  font-family: "Bevan", cursive;
+  padding: 0;
 }
 
 h1 {
-	text-align: center;
-	color: #fff;
-	margin: 20px;
-	padding: 0;
-	line-height: 1rem;
+  text-align: center;
+  color: #fff;
+  margin: 20px;
+  padding: 0;
+  line-height: 1rem;
 }
 
 .horizontal-nav {
-	list-style-type: none;
-	text-align: center;
-	text-decoration: none;
-	margin-top: 0;
-	padding: 0;
-	line-height: 0.5em;
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 0;
+  padding: 0;
+  line-height: 0.5em;
 }
 
 .horizontal-nav li {
-	display: inline;
+  display: inline;
 }
 
-.horizontal-nav li a{
-	display: inline-block;
-	margin: 0px;
-	padding: 0.8em;
-	background-color: #713837;
-	color: #fff;
-	text-decoration: none;
-	font-family: sans-serif;
-	border-radius: 5px;
-	line-height: 1.0em
+.horizontal-nav li a {
+  display: inline-block;
+  margin: 0;
+  padding: 0.8em;
+  background-color: #713837;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-radius: 5px;
+  line-height: 1.0em;
 }
 
 .horizontal-nav li a:hover {
-	background-color: #ff332a;
+  background-color: #ff332a;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
